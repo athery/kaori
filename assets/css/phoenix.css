@@ -19,7 +19,6 @@ body, form, ul, table {
 
 /* Custom page header */
 .header {
-  margin-bottom: 10px;
   position: relative;
 }
 .logo {
@@ -71,5 +70,8 @@ body, form, ul, table {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+  .footer {
+    padding-top: 10px;
   }
 }

@@ -27,6 +27,32 @@
         <%= render @view_module, @view_template, assigns %>
       </main>
 
+      <div class="footer text-center lead">
+        <p>
+            Nos dernières réalisations sur le blog : <a href="https://blog.kaori-paysage.fr" target="_blank">https://blog.kaori-paysage.fr</a>
+        </p>
+        <p>
+           Nous contacter : <a class="orange" href="mailto:contact@kaori-paysage.fr">contact@kaori-paysage.fr</a>
+        </p>
+        <p>Nous suivre sur
+            <a href="http://facebook.com/kaoripaysage" target="_blank">Facebook
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                </span>
+            </a> et
+            <a href="http://twitter.com/kaoripaysage" target="_blank">Twitter
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+            </a>
+        </p>
+        <p class="text-center">
+            © Kaori Paysage 2018
+        </p>
+      </div>
+
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
