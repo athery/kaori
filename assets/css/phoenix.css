@@ -20,14 +20,18 @@ body, form, ul, table {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
+  position: relative;
 }
 .logo {
   width: 303px;
   height: 372px;
-  display: inline-block;
   margin-bottom: 1em;
   background-image: url("/images/logo-kaori.png");
   background-size: 303px 372px;
+  display: block;
+  position: inherit;
+  left: 50%;
+  margin-left: -151px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
