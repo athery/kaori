@@ -23,15 +23,15 @@ body, form, ul, table {
   position: relative;
 }
 .logo {
-  width: 303px;
-  height: 372px;
+  width: 349px;
+  height: 385px;
   margin-bottom: 1em;
-  background-image: url("/images/logo-kaori.png");
-  background-size: 303px 372px;
+  background-image: url("/images/logo.PNG");
+  background-size: 349px 385px;
   display: block;
   position: inherit;
   left: 50%;
-  margin-left: -151px;
+  margin-left: -174px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
