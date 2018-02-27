@@ -21,6 +21,10 @@ body, form, ul, table {
 /* Custom page header */
 .header {
   position: relative;
+  background-image: url("/images/jardin-header.jpg");
+  background-position: center;
+
+  padding: 20px 0 10px 0;
 }
 .logo {
   width: 349px;
