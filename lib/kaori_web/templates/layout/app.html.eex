@@ -7,16 +7,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kaori Paysages - Donnons vie au jardin</title>
+    <title>Kaori Paysage - Eco-paysagiste en Côtes d'Armor</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
-    
+
       <header class="header">
-
           <span class="logo"></span>
-
+          <h1>Eco-Paysagiste</h1>
+          <h2>Racontez-nous le jardin que vous aimez...
+  <br><br>...nous le réaliserons pour vous.</h2>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
