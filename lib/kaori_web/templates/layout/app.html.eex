@@ -17,7 +17,8 @@
           <span class="logo"></span>
           <h1>Eco-Paysagiste</h1>
           <h2>Racontez-nous le jardin que vous aimez...
-  <br><br>...nous le réaliserons pour vous.</h2>
+            <br><br>...nous le réaliserons pour vous.
+          </h2>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
