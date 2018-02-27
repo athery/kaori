@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kaori Paysage - Eco-paysagiste en Côtes d'Armor</title>
+    <title>Kaori Paysage - Eco-paysagiste à Saint Brieuc, Côtes d'Armor</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
@@ -15,7 +15,8 @@
 
       <header class="header">
           <span class="logo"></span>
-          <h1>Eco-Paysagiste</h1>
+          <h1>ECO-PAYSAGISTE<br>
+          <span class="baseline">Saint Brieuc</span></h1>
           <h2>Racontez-nous le jardin que vous aimez...
             <br><br>...nous le réaliserons pour vous.
           </h2>
