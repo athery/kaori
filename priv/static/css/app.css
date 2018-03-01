@@ -131,9 +131,12 @@
 
 
 body, form, ul, table {
-  margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'Libre Baskerville', sans-serif;
+}
+
+form, ul, table {
+  margin-top: 20px;
 }
 
 /* Phoenix flash messages */
