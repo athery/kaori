@@ -8,6 +8,7 @@
     <meta name="author" content="">
 
     <title>Kaori Paysage - Eco-paysagiste à Saint Brieuc, Côtes d'Armor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
@@ -25,34 +26,28 @@
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
-      <main role="main">
+      <main role="main" class="main">
         <%= render @view_module, @view_template, assigns %>
       </main>
 
-      <div class="footer text-center lead">
-        <p>
-            Nos dernières réalisations sur le blog : <a href="https://blog.kaori-paysage.fr" target="_blank">https://blog.kaori-paysage.fr</a>
-        </p>
-        <p>
-           Nous contacter : <a class="orange" href="mailto:contact@kaori-paysage.fr">contact@kaori-paysage.fr</a>
-        </p>
-        <p>Nous suivre sur
-            <a href="http://facebook.com/kaoripaysage" target="_blank">Facebook
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x"></i>
-                </span>
-            </a> et
-            <a href="http://twitter.com/kaoripaysage" target="_blank">Twitter
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x"></i>
-                </span>
-            </a>
-        </p>
-        <p class="text-center">
-            © Kaori Paysage 2018
-        </p>
+      <div class="container">
+        <div class="footer text-center lead">
+          <p>
+              Nos dernières réalisations : <a href="https://blog.kaori-paysage.fr" target="_blank">https://blog.kaori-paysage.fr</a>
+          </p>
+          <p>
+             Nous contacter : <a class="orange" href="mailto:contact@kaori-paysage.fr">contact@kaori-paysage.fr</a>
+          </p>
+          <p>
+              Nous suivre sur
+              <a href="http://facebook.com/kaoripaysage" target="_blank">Facebook</a>
+              et
+              <a href="http://twitter.com/kaoripaysage" target="_blank">Twitter</a>
+          </p>
+          <p class="text-center copyright">
+              © Kaori Paysage 2018
+          </p>
+        </div>
       </div>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>

@@ -1,49 +1,81 @@
-<div class="container">
-  <div class="jumbotron">
-    <h2>Donnons vie au jardin</h2>
-    <br>
-    <p class="lead">
-      Vous souhaitez que votre jardin soit beau et vivant, design et sain, qu'il ait une âme et tout simplement qu'il soit le vôtre et que vous vous y sentiez bien.
-    </p>
-    <p class="lead">
-      Racontez -nous le jardin que vous aimez,
-    </p>
-    <p class="lead">
-      Nous le réaliserons pour vous.
-    </p>
+<section role="offers" class="offers">
+  <header class="text-center">
+    <h1 class="title">Nous vous accompagnons tout au long de votre projet</h1>
+  </header>
+  <div class="row">
+    <div class="col-lg">
+      <article class="offer">
+        <header class="text-center secondary">
+          <span class="icon-palette icon"></span>
+          <h1>Conception</h1>
+        </header>
+        <p class="lead text-justify">
+          La rencontre et les échanges qui
+          précèdent la conception de votre jardin sont des instants précieux
+          qui nous permettent de répondre réellement à vos attentes.
+        </p>
+        <p class="lead text-justify">
+          Viennent ensuite les esquisses, les plans et les choix de coloris et d'essences afin de se projeter d'avantage.
+        <p>
+        <ul class="usps lead">
+          <li>Ecoute et échange autour du projet</li>
+          <li>Etude personnalisée</li>
+          <li>Plans et esquisses en couleur</li>
+        </ul>
+      </article>
+    </div>
+    <div class="col-lg">
+      <article class="offer">
+        <header class="text-center primary">
+          <span class="icon-tree icon"></span>
+          <h1>Création</h1>
+        </header>
+          <p class="lead text-justify">
+            Nous nous chargeons de tout : achat des
+            matériaux et des plantes, terrassement, travail du sol et
+            plantation. Nous gérons les éventuels sous-traitants.
+          </p>
+          <p class="lead text-justify">
+            Nous allions la recherche de l'esthétique aux pratiques de permaculture pour créer des jardins vivants nécéssitant très peu d'entretien et aucun traitement.
+          <p>
+        <ul class="usps lead">
+          <li>Une palette végétale riche</li>
+          <li>Des aménagements soignés</li>
+          <li>Peu d'entretien, pas de traitement</li>
+          <li>Vie du sol et biodiversité favorisées</li>
+        </ul>
+      </article>
+    </div>
+    <div class="col-lg">
+      <article class="offer">
+        <header class="text-center tertiary">
+          <span class="icon-haircut icon"></span>
+          <h1>Entretien</h1>
+        </header>
+        <p class="lead text-justify">
+          Nous pratiquons tous travaux de taille, de tonte et de revitalisation du sol.
+          Notre expertise de pépinieriste nous permet d'adapter la taille à chaque arbre pour le garder en bonne santé.
+        <p>
+        <p class="lead">
+          Prestations <strong class="tertiary">déductibles de vos impôts</strong> à hauteur de 50% selon l'article 199 sexdecies du cgi
+        </p>
+        <ul class="usps lead">
+          <li>Taille d'entretien, de formation, de transparence</li>
+          <li>Tontes classiques ou différenciées</li>
+        </ul>
+      </article>
+    </div>
   </div>
-</div>
-
-<!--
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
+</section>
+<section class="contact">
+  <div class="row">
+    <div class="col-md text-center">
+      <p class="lead">
+        Envie de nous parler de votre projet ?
+      </p>
+      <p class="lead">
+        Contactez-nous au 07.81.26.61.16 ou sur contact@kaori-paysage.fr
+      </p>
+    </div>
   </div>
-
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
-  </div>
-</div>
--->
+</section>
