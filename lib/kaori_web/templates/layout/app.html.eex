@@ -8,9 +8,12 @@
     <meta name="keywords" content="paysage, paysagiste, saint brieuc, cotes d'armor, eco-paysagiste, permaculture, botanique, sol vivant, biodiversité, feng shui" />
     <meta name="author" content="Kaori Paysage">
 
+    <meta property="og:image" content="https://www.kaori-paysage.fr/images/jardin-header_light.jpg" />
+
     <title>Kaori Paysage - Eco-paysagiste à Saint Brieuc, Côtes d'Armor</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+
   </head>
 
   <body>
