@@ -12,7 +12,7 @@
         <p class="lead text-justify">
           La rencontre et les échanges qui
           précèdent la conception de votre jardin sont des instants précieux
-          qui nous permettent de répondre réellement à vos attentes.
+          qui nous permettent de percevoir votre environnement et de répondre réellement à vos attentes.
         </p>
         <p class="lead text-justify">
           Viennent ensuite les esquisses, les plans et les choix de coloris et d'essences afin de se projeter d'avantage.
@@ -76,6 +76,46 @@
       <p class="lead">
         Contactez-nous au 07.81.26.61.16 ou sur contact@kaori-paysage.fr
       </p>
+    </div>
+  </div>
+</section>
+<section class="whoami">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-8">
+      <div class="calque">
+        <h2>Et derrière KAORI, il y a qui ?</h2>
+        <img src="/images/arnaud_medal.jpg" alt="Arnaud Thery" class="medal mobile-only"/>
+        <p class="lead">Bonjour, je m'appelle Arnaud Théry,<p>
+        <p class="lead">
+          Je suis éco-paysagiste et passionné de botanique.
+        </p>
+        <p class="lead">
+          Diplômé de l'ESA je commence ma vie de paysagiste en tant qu'apprenti
+          dessinateur en bureau d'études paysagères à Angers.
+        </p>
+        <p class="lead">
+          Ma passion des plantes me pousse jusqu'en Nouvelles Zélande: j'y
+          resterais 1 an et je tomberais amoureux de la merveilleuse flore
+          australe (Le Kaori ou Kauri, Agathis australis, est un arbre hautement
+          symbolique de la Nouvelle Zélande.)
+        </p>
+        <p class="lead">
+          A mon retour en France je deviens Pépiniériste. Durant 10 ans j'apprends
+          réellement à connaître les plantes. Je continue à dessiner et concevoir des jardins pour les clients des
+          différentes pépinières au seins desquelles je travaille.
+        </p>
+        <p class="lead">
+          Poussé par l'envie d'aller plus loin dans l'alliance de l'aménagement
+          paysager et des notions telles que la permaculture et le sol vivant,
+          je crée mon entreprise : KAORI Paysage est né !
+        </p>
+        <p class="lead">
+          Dés lors mon objectif principal est de concevoir avec vous un jardin
+          sur mesure et de le réaliser pour qu'il réponde parfaitement à vos
+          attentes tout en respectant l'environnement.
+        </p>
+      </div>
     </div>
   </div>
 </section>
