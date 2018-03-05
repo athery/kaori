@@ -175,6 +175,60 @@ form, ul, table {
   text-align: justify;
 }
 
+.ourwork {
+  padding-bottom: 40px;
+}
+
+.ourwork .title {
+  padding-bottom: 40px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 1.25rem;
+    color: #000;
+    background-color: #f0d1f5;
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0 5px;
+    font-size: 1em;
+}
+
+.nav-pills .nav-item {
+  width: 33%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #9124a3;
+}
+
+
+.nav-pills {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 50%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+
 .logo {
   width: 175px;
   height: 192px;
@@ -247,7 +301,7 @@ form, ul, table {
   margin-bottom: 20px;
 }
 
-.offers .title {
+.section-title {
   font-family: 'Libre Baskerville', sans-serif;
   /*font-style: italic;*/
   font-size: 2.4em;
@@ -327,9 +381,9 @@ form, ul, table {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-.mobile-only {
-  display: none;
-}
+  .mobile-only {
+    display: none;
+  }
 
   /* Remove the padding we set earlier */
   .header,
@@ -366,9 +420,23 @@ form, ul, table {
       padding: 20px;
     }
 
-    .whoami p {
+  .whoami p {
       text-align: left;
     }
+
+  .nav-pills .nav-link {
+      margin: 0 10px;
+      font-size: 1.5em;
+  }
+
+  .nav-pills {
+        width: 100%;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 33.33%;
+  }
 
   .main {
     margin: -50px 30px 0;
@@ -392,6 +460,9 @@ form, ul, table {
   .whoami {
     background-image: url("/images/arnaud_narrow.jpg");
   }
+  .nav-pills {
+        width: 80%;
+  }
 }
 
 @media screen and (min-width: 1360px) {
@@ -401,6 +472,13 @@ form, ul, table {
   }
   .whoami .calque {
     padding: 20px;
+  }
+  .nav-pills {
+      width: 50%;
+  }
+  .grid-sizer,
+  .grid-item {
+    width: 25%;
   }
 }
 
