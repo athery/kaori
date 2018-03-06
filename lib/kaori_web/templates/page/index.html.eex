@@ -159,9 +159,116 @@
     <div class="tab-pane fade" id="pills-creation" role="tabpanel" aria-labelledby="pills-creation-tab">
       <div class="grid" id="creation-gallery">
         <div class="grid-sizer"></div>
-        <p class="lead" style="margin-top: 50px;">
-          <i>A venir très bientôt...</i>
-        </p>
+        <div class="grid-item">
+          <a href="/images/creation/escalier6mois.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/escalier6mois.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/escalier-galets.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/escalier-galets.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/ganivelle.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/ganivelle.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/ganivelle-plantes.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/ganivelle-plantes.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/img2.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/img2.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/img3.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/img3.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/jardin-ville-2.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/jardin-ville-2.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/massif1.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/massif1.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/massif3.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/massif3.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/massif-fougeres-mousses.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/massif-fougeres-mousses.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/mjardin-3.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/mjardin-3.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/mjardin-4.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/mjardin-4.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/mjardin-5.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/mjardin-5.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/pordic4.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/pordic4.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/pordic.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/pordic.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/pose-ganivelle.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/pose-ganivelle.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/potager2.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/potager2.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/potager.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/potager.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/talus-avant.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/talus-avant.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/terrasse2.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/terrasse2.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/terrasse-cour.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/terrasse-cour.jpg" class="img-thumbnail" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/creation/terrasse.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/creation/thumb/terrasse.jpg" class="img-thumbnail" />
+          </a>
+        </div>
       </div>
     </div>
 
