@@ -22,21 +22,43 @@ import "phoenix_html"
 
 import "./blueimp-gallery.min"
 
-var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  columnWidth: '.grid-sizer'
-});
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry();
-});
+$( document ).ready(function() {
+  var $grid = $('#conception-gallery').masonry({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    columnWidth: '.grid-sizer'
+  });
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry();
+  });
 
-document.getElementById('conception-gallery').onclick = function (event) {
-    event = event || window.event;
-    var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target,
-        options = {index: link, event: event},
-        links = this.getElementsByTagName('a');
-    blueimp.Gallery(links, options);
-};
+  $('a[data-toggle=pill]').each(function () {
+    var $this = $(this);
+    $this.on('shown.bs.tab', function () {
+      var $pane = $('#' + $this.attr('aria-controls'));
+      $pane.imagesLoaded( function () {
+        $pane.masonry({
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          columnWidth: '.grid-sizer'
+        });
+      });
+    });
+  });
+
+  function applyLiteBoxToGallery(selector) {
+    document.getElementById(selector).onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+  }
+
+  applyLiteBoxToGallery('conception-gallery');
+  applyLiteBoxToGallery('creation-gallery');
+  applyLiteBoxToGallery('entretien-gallery');
+
+});

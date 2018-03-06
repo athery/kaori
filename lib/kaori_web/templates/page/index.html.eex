@@ -74,93 +74,141 @@
   </header>
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+      <a class="nav-link active" id="pills-conception-tab" data-toggle="pill" href="#pills-conception" role="tab" aria-controls="pills-conception" aria-selected="true">
         Conception
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+      <a class="nav-link" id="pills-creation-tab" data-toggle="pill" href="#pills-creation" role="tab" aria-controls="pills-creation" aria-selected="false">
         Création
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+      <a class="nav-link" id="pills-entretien-tab" data-toggle="pill" href="#pills-entretien" role="tab" aria-controls="pills-entretien" aria-selected="false">
         Entretien
       </a>
     </li>
   </ul>
   <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="tab-pane fade show active" id="pills-conception" role="tabpanel" aria-labelledby="pills-conception-tab">
       <div class="grid" id="conception-gallery">
         <div class="grid-sizer"></div>
         <div class="grid-item">
-          <a href="/images/plans/3d-poteaux.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/3d-poteaux.jpg" />
+          <a href="/images/conception/3d-poteaux.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/3d-poteaux.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/dessus-jardin.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/dessus-jardin.jpg" />
+          <a href="/images/conception/dessus-jardin.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/dessus-jardin.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/bassin.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/bassin.jpg" />
+          <a href="/images/conception/bassin.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/bassin.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/dessus-terrasse.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/dessus-terrasse.jpg" />
+          <a href="/images/conception/dessus-terrasse.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/dessus-terrasse.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/coupe-bardage.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/coupe-bardage.jpg" />
+          <a href="/images/conception/coupe-bardage.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/coupe-bardage.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/plan-jardin1.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/plan-jardin1.jpg" />
+          <a href="/images/conception/plan-jardin1.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/plan-jardin1.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/chemin.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/chemin.jpg" />
+          <a href="/images/conception/chemin.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/chemin.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/plan-jardin2.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/plan-jardin2.jpg" />
+          <a href="/images/conception/plan-jardin2.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/plan-jardin2.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/massif-1-2.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/massif-1-2.jpg" />
+          <a href="/images/conception/massif-1-2.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/massif-1-2.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/coupe-terrasse.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/coupe-terrasse.jpg" />
+          <a href="/images/conception/coupe-terrasse.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/coupe-terrasse.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/dessus-jardin2.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/dessus-jardin2.jpg" />
+          <a href="/images/conception/dessus-jardin2.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/dessus-jardin2.jpg" />
           </a>
         </div>
         <div class="grid-item">
-          <a href="/images/plans/massif-3-4.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/plans/thumb/massif-3-4.jpg" />
+          <a href="/images/conception/massif-3-4.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/conception/thumb/massif-3-4.jpg" />
           </a>
         </div>
       </div>
+    </div>
 
+    <div class="tab-pane fade" id="pills-creation" role="tabpanel" aria-labelledby="pills-creation-tab">
+      <div class="grid" id="creation-gallery">
+        <div class="grid-sizer"></div>
+        <p class="lead" style="margin-top: 50px;">
+          <i>A venir très bientôt...</i>
+        </p>
+      </div>
     </div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-      <p class="lead" style="padding: 0 50px;"><i>A venir très bientôt...</i></p>
-    </div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-      <p class="lead" style="padding: 0 50px;"><i>A venir très bientôt...</i></p>
+
+    <div class="tab-pane fade" id="pills-entretien" role="tabpanel" aria-labelledby="pills-entretien-tab">
+      <div class="grid" id="entretien-gallery">
+        <div class="grid-sizer"></div>
+        <div class="grid-item">
+          <a href="/images/entretien/jardin1.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/entretien/thumb/jardin1.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/entretien/jardin3.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/entretien/thumb/jardin3.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/entretien/prairie.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/entretien/thumb/prairie.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/entretien/jardin2.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/entretien/thumb/jardin2.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/entretien/jardin5.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/entretien/thumb/jardin5.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/entretien/brouillard.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/entretien/thumb/brouillard.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/entretien/jardin4.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/entretien/thumb/jardin4.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="/images/entretien/jardin6.jpg" title="Kaori Paysage - 2017">
+            <img src="/images/entretien/thumb/jardin6.jpg" />
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
