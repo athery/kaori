@@ -379,7 +379,12 @@ form, ul, table {
 }
 
 .contact .lead {
-  font-size: 1.5em;
+  font-size: 1.4em;
+  line-height: 2;
+}
+
+.contact .email>a, .contact .phone {
+    color: #fff;
 }
 
 .footer {
@@ -457,6 +462,15 @@ form, ul, table {
 
   .offer {
     padding: 0 50px;
+  }
+
+  .contact .lead {
+    font-size: 1.7em;
+    line-height: 2;
+  }
+
+  .contact a, .contact .phone {
+      /*padding: 10px 20px;*/
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */

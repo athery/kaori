@@ -277,42 +277,42 @@
         <div class="grid-sizer"></div>
         <div class="grid-item">
           <a href="/images/entretien/jardin1.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/entretien/thumb/jardin1.jpg" />
+            <img src="/images/entretien/thumb/jardin1.jpg" class="img-thumbnail" />
           </a>
         </div>
         <div class="grid-item">
           <a href="/images/entretien/jardin3.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/entretien/thumb/jardin3.jpg" />
+            <img src="/images/entretien/thumb/jardin3.jpg" class="img-thumbnail" />
           </a>
         </div>
         <div class="grid-item">
           <a href="/images/entretien/prairie.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/entretien/thumb/prairie.jpg" />
+            <img src="/images/entretien/thumb/prairie.jpg" class="img-thumbnail" />
           </a>
         </div>
         <div class="grid-item">
           <a href="/images/entretien/jardin2.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/entretien/thumb/jardin2.jpg" />
+            <img src="/images/entretien/thumb/jardin2.jpg" class="img-thumbnail" />
           </a>
         </div>
         <div class="grid-item">
           <a href="/images/entretien/jardin5.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/entretien/thumb/jardin5.jpg" />
+            <img src="/images/entretien/thumb/jardin5.jpg" class="img-thumbnail" />
           </a>
         </div>
         <div class="grid-item">
           <a href="/images/entretien/brouillard.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/entretien/thumb/brouillard.jpg" />
+            <img src="/images/entretien/thumb/brouillard.jpg" class="img-thumbnail" />
           </a>
         </div>
         <div class="grid-item">
           <a href="/images/entretien/jardin4.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/entretien/thumb/jardin4.jpg" />
+            <img src="/images/entretien/thumb/jardin4.jpg" class="img-thumbnail" />
           </a>
         </div>
         <div class="grid-item">
           <a href="/images/entretien/jardin6.jpg" title="Kaori Paysage - 2017">
-            <img src="/images/entretien/thumb/jardin6.jpg" />
+            <img src="/images/entretien/thumb/jardin6.jpg" class="img-thumbnail" />
           </a>
         </div>
       </div>
@@ -327,7 +327,7 @@
         Envie de nous parler de votre projet ?
       </p>
       <p class="lead">
-        Contactez-nous au 07.81.26.61.16 ou sur contact@kaori-paysage.fr
+        Contactez-nous au <span class="phone">07.81.26.61.16</span> ou sur <span class="email"><a href="mailto:contact@kaori-paysage.fr">contact@kaori-paysage.fr</a></span>
       </p>
     </div>
   </div>
